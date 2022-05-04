@@ -17,11 +17,11 @@ public class main {
                     case (1):
                         System.out.println("Завдання - 1");
                         System.out.println("Введіть a:");
-                        double a = scan.nextInt();
+                        double a = scan.nextDouble();
                         System.out.println("Введіть b:");
-                        double b = scan.nextInt();
+                        double b = scan.nextDouble();
                         System.out.println("Введіть c: ");
-                        double c = scan.nextInt();
+                        double c = scan.nextDouble();
 
                         if (c > 0) {
                             if (Math.sqrt(b - a) > 0) {
@@ -82,12 +82,12 @@ public class main {
                         double r,l;
                         do {
                             System.out.println("Введіть радіус круга:");
-                            r = scan.nextInt();
+                            r = scan.nextDouble();
                         }while (r <= 0);
 
                         do {
                             System.out.println("Введіть довжину квадрата:");
-                            l = scan.nextInt();
+                            l = scan.nextDouble();
                         }while (l <= 0);
 
                         double S_circle = Math.PI * Math.pow(r, 2);

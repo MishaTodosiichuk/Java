@@ -158,7 +158,7 @@ public class main {
                         int y = scan.nextInt();
                         System.out.println("Введіть z:");
                         int z = scan.nextInt();
-                        double r = Math.sqrt(y*y - 2 * A);
+                        r = Math.sqrt(y*y - 2 * A);
                         if (r > 0) {
                             double x = A * r + Math.pow(Math.cos(z), 2);
                             System.out.printf("Результат: %.2f\n", x);

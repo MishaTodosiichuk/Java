@@ -29,10 +29,10 @@ public class main {
                                     double y1 = Math.sqrt(b - a) + 2 * Math.sqrt(c);
                                     System.out.printf("Результат: %.2f\n", y1);
                                 } else {
-                                    System.out.println("Введені некоректні дані!");
+                                    System.out.println("З заданих значень корень не добувається!");
                                 }
                             } else {
-                                System.out.println("Введені некоректні дані!");
+                                System.out.println("З заданих значень корень не добувається!");
                             }
                         }
 
@@ -41,7 +41,7 @@ public class main {
                                 double y2 = b / (c - 6 * a);
                                 System.out.printf("Результат: %.2f\n", y2);
                             } else {
-                                System.out.println("Введені некоректні дані!");
+                                System.out.println("Введені значення при яких знаменник = 0!");
                             }
                         }
                         if (c < 0){
@@ -57,10 +57,10 @@ public class main {
                                     double y1 = Math.sqrt(b - a) + 2 * Math.sqrt(c);
                                     System.out.printf("Результат: %.2f\n", y1);
                                 } else {
-                                    System.out.println("Введені некоректні дані!");
+                                    System.out.println("З заданих значень корень не добувається!");
                                 }
                             } else {
-                                System.out.println("Введені некоректні дані!");
+                                System.out.println("З заданих значень корень не добувається!");
                             }
                         }
 
@@ -69,7 +69,7 @@ public class main {
                                 double y2 = b / (c - 6 * a);
                                 System.out.printf("Результат: %.2f\n", y2);
                             } else {
-                                System.out.println("Введені некоректні дані!");
+                                System.out.println("Введені значення при яких знаменник = 0!");
                             }
                         }
                         else {
@@ -163,7 +163,7 @@ public class main {
                             System.out.printf("Результат: %.2f\n", x);
                         }
                         else {
-                            System.out.println("Введені некоректні дані!");
+                            System.out.println("Введені значення при яких знаменник = 0!");
                         }
                         break;
                     }

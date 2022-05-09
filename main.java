@@ -158,12 +158,13 @@ public class main {
                         int y = scan.nextInt();
                         System.out.println("Введіть z:");
                         int z = scan.nextInt();
-                        if (Math.pow(y, 2) - 2 * A != 0) {
-                            double x = A * Math.pow(y, 2) - 2 * A + Math.pow(Math.cos(z), 2);
+                        double r = Math.sqrt(y*y - 2 * A);
+                        if (r > 0) {
+                            double x = A * r + Math.pow(Math.cos(z), 2);
                             System.out.printf("Результат: %.2f\n", x);
                         }
                         else {
-                            System.out.println("Введені значення при яких знаменник = 0!");
+                            System.out.println("З заданих значень корень не добувається!");
                         }
                         break;
                     }
